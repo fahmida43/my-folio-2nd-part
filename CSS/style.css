@@ -1,0 +1,192 @@
+/* common CSS */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+
+.align-center{
+    align-items: center;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+    display: inline-block;
+    padding: 19px 42px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color:  #02918c;
+    color: #cfc91d;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.heading span{
+    font-size: 16px;
+    color: #7e8287 ;
+
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+
+/* Common CSS */
+
+/* nav bar starts here */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+    align-self: center;
+}
+
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    padding: 26px 25px;
+    transition: 0.5s;
+}
+nav .menu ul li:hover a{
+    color: yellow;
+    font-size: 12.3px;
+}
+/*nav bar ends here */
+
+/* banner starts here */
+#banner{
+    background-color: rgba(0, 0, 0, 0.34);
+    background-image: url(../img/MYFOLIO-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 768px;
+}
+
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+
+
+.banner_content{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+
+}
+
+.banner_content h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner_content h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner_content p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner_content img{
+    margin: 50px 0;
+    display: block;
+    margin: 50px  auto;
+}
+/*banner ends here */
+
+/* about section starts here */
+
+#about p span{
+    font-size: 23px;
+    font-weight: 800 ;
+}
+
+.about_card{
+    width: 25%;
+    margin-top: 50px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    padding: 40px 0;
+}
+
+
+.about_card span{
+    color: #17b3ae;
+    font-size: 30px;
+}
+
+.about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 20px 0;
+}
+
+
+.about_card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px;
+}
+
+.about_card:last-child{
+    border: none;
+}
+
+/* about section ends here */
